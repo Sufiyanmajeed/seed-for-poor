@@ -87,7 +87,7 @@ h1 {
 .mission-card {
   margin-top: 150px;
   width: 357px;
-  margin-left: 60px;
+  margin-left: 215px;
 }
 
 .button3 {
@@ -109,11 +109,14 @@ h1 {
   top: 30%;
   left: 38%;
 }
+.mission-color {
+  background-color: rgb(243, 238, 238);
+  height: 130px;
+}
 .virtual {
-  /* background-color: #f1f1f3; */
   font-weight: bold;
   width: 300px;
-  /* height: 553px; */
+  height: 80px;
   top: 768px;
   left: 942px;
   font-size: x-large;
@@ -136,4 +139,40 @@ h1 {
   justify-content: center;
   text-align: center;
   font-size: 20px;
+}
+.container {
+  position: relative;
+  background-color: #48c7f4;
+  display: flex;
+  width: 850px;
+  height: 293px;
+
+  margin-left: -900px;
+  margin-top: -200px;
+}
+.container2 {
+  position: relative;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.img3 {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+.maria {
+  display: flex;
+  width: 505px;
+  height: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.p2 {
+  font-size: 12px;
 }
