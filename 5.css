@@ -75,11 +75,11 @@ h1 {
 }
 
 .second-p {
-  width: 620px;
+  width: 730px;
   display: flex;
   margin: 10px;
   margin-top: 120px;
-  height: 500px;
+  height: 203px;
 
   margin-left: 110px;
   line-height: 22px;
@@ -144,35 +144,68 @@ h1 {
   position: relative;
   background-color: #48c7f4;
   display: flex;
-  width: 850px;
-  height: 293px;
+  width: 760px;
+  height: 310px;
 
   margin-left: -900px;
   margin-top: -200px;
 }
-.container2 {
+.sub-containere {
   position: relative;
   font-weight: bold;
   font-size: 20px;
-  margin-left: 50px;
+  margin-left: 0px;
 }
-.img3 {
+.btn4 {
   top: 0px;
   right: 0px;
   position: absolute;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 20px;
 }
+
 .maria {
-  display: flex;
-  width: 505px;
-  height: 20px;
+  width: 276px;
+  height: 130px;
   font-weight: bold;
   font-size: 16px;
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
+  font-weight: 600;
 }
+
 .p2 {
   font-size: 12px;
 }
+.main-contant {
+  width: 393px;
+  height: 87px;
+  top: 1182px;
+  left: 457px;
+  margin-left: 30px;
+}
+.second-container {
+  display: flex;
+}
+.imgs {
+  display: flex;
+  width: 900px;
+  height: 255px;
+  margin: 10px;
+  padding: 10px;
+  gap: 19px;
+  justify-content: center;
+  align-items: center;
+}
+/* .super-fund {
+  right: 5px;
+  width: 50px;
+  height: 310px;
+  margin-left: 359px;
+  margin-top: 0px;
+} */
