@@ -16,6 +16,7 @@ body {
 .right {
   width: 720px;
   height: 603px;
+  text-align: center;
 
   background-color: #3971ae;
 }
@@ -70,7 +71,7 @@ h1 {
 .second-main {
   display: flex;
   width: 100%;
-  width: 100%;
+  height: 740px;
 }
 
 .left2 {
@@ -129,18 +130,14 @@ h1 {
   height: 553px;
   top: 768px;
   left: 942px;
-  background-color: #e5202a;
+  background: #f1f1f3;
+
   margin-left: 200px;
 }
 
 .virtual p {
   font-weight: bold;
-  /* width: 300px;
-  height: 80px;
-  top: 768px;
-  left: 942px;
-  font-size: x-large;
-  margin-left: 28px; */
+
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -165,46 +162,249 @@ h1 {
   font-size: 20px;
 }
 .container2 {
+  display: flex;
   width: 769px;
   height: 278px;
   top: 1043px;
   left: 138px;
   border-radius: 20px;
   margin-top: 50px;
-  background-color: #e5202a;
+  background: #48c7f4;
+  margin-left: 109px;
 }
+.jose-intro {
+  color: #ffffff;
 
-/* .maria {
-  width: 276px;
-  height: 130px;
-  font-weight: bold;
+  font-family: Inter;
   font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
-  font-weight: 600;
-}
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
 
-.p2 {
-  font-size: 12px;
+  width: 230px;
+  height: 38px;
+  top: 1074px;
+  left: 457px;
+  margin-left: 20px;
+  margin-top: 25px;
 }
-.main-contant {
+.jose-intro h2 {
+  color: #ffffff;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.jose-intro h3 {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.jose-intro p {
   width: 393px;
   height: 87px;
   top: 1182px;
   left: 457px;
-  margin-left: 30px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.second-container {
+.third-main {
   display: flex;
+  width: 1500px;
+  height: 500px;
 }
+.left3 {
+  width: 100%;
+  height: 100%;
+}
+
 .imgs {
   display: flex;
-  width: 900px;
-  height: 255px;
-  margin: 10px;
+  gap: 12px;
+  margin-left: 140px;
+  height: 322px;
+  width: 500px;
+}
+.imgs img {
+  width: 243px;
+  height: 243px;
+  top: 1377px;
+  left: 402px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.right3 {
+  width: 500px;
+  height: 560px;
+  margin-right: 156px;
+
+  border-radius: 10px;
+}
+.ameen {
+  display: flex;
+  flex-direction: column;
+  background: #384885;
+
+  width: 769px;
+  height: 221px;
+
+  margin-left: 138px;
+  border-radius: 10px;
+}
+.prayer {
+  color: #ffffff;
+
+  width: 215px;
+  height: 33px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
   padding: 10px;
-  gap: 19px;
-  justify-content: center;
-  align-items: center;
-} */
+  padding-top: 20px;
+}
+.your-mission {
+  color: #ffffff;
+
+  width: 481px;
+  height: 110px;
+  top: 1749px;
+  left: 183px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px;
+}
+.ameen-btn {
+  position: relative;
+  background: #48c7f4;
+
+  width: 182px;
+  height: 182px;
+  margin-top: -155px;
+  margin-left: 560px;
+  border-radius: 10px;
+  z-index: 1;
+  opacity: 0.87;
+  margin-bottom: 20px;
+}
+.ameen-btn img {
+  width: 38px;
+  height: 38px;
+  margin-top: 50px;
+  margin-left: 70px;
+  padding: 3.077630043029785px 3.8123621940612793px 2.30374813079834px
+    5.14214563369751px;
+}
+.click {
+  width: 132px;
+  height: 20px;
+  margin-left: 32px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.gk {
+  background: linear-gradient(0deg, #e0e0e0, #e0e0e0),
+    linear-gradient(0deg, #f9f9f9, #f9f9f9);
+
+  width: 769px;
+  height: 248px;
+  margin-top: 100px;
+  margin-left: 138px;
+  border-radius: 20px;
+  border: 1px;
+}
+.usa {
+  display: flex;
+}
+.usa img {
+  color: #888888;
+
+  width: 113px;
+  height: 103px;
+
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.gawad {
+  width: 270px;
+  height: 16px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.explain {
+  color: #888888;
+
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.copy-register {
+  color: #888888;
+
+  display: block;
+  width: 697px;
+  height: 43px;
+  margin-top: 18px;
+  margin-left: 23px;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.seed-for-me {
+  background: #6d6e70;
+
+  width: 1440px;
+  height: 216px;
+  top: 2257px;
+  border: 1px;
+  margin-top: 40px;
+}
+.seed-for-me img {
+  width: 294px;
+  height: 52px;
+  margin-top: 56px;
+  margin-left: 65px;
+  padding: 0px 0.5880126953125px 0.0382537841796875px 0px;
+}
+.sm-service {
+  width: 1253px;
+  height: 51px;
+  margin-top: 22px;
+  margin-left: 93px;
+
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
